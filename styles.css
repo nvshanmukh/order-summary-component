@@ -1,0 +1,177 @@
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+    --font-family: 'Red Hat Display', sans-serif;
+    --bold: 900;
+    --semi-bold: 700;
+    --light-bold: 500;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    font-weight: var(--semibold);
+    font-size: 1.6rem;
+}
+
+.page{
+    height: 100vh;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    background-color: var(--pale-blue);
+
+}
+
+.bg__image {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.bg__image img {
+    height: 35rem;
+    width: 165rem;
+}
+
+.card { 
+    display: flex;
+    position: absolute;
+	flex-direction: column;
+    width: 45rem;
+    background-color: #fff;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    padding-bottom: 4rem;
+    box-shadow: 1px 1px 7px 0.1px var(--desaturated-blue);
+}
+
+.card__image img{
+    border-radius: 15px 15px 0 0;
+}
+
+.card__title {
+    font-family: var(--font-family);
+    font-weight: var(--bold);
+    color: var(--dark-blue);
+    padding-top: 2rem;
+    font-size: 2.6rem;
+}
+
+.card__content {
+    width: 30rem;
+    color: var(--desaturated-blue);
+    font-family: var(--font-family);
+    font-weight: var(--light-bold);
+}
+
+.mini__card {
+    display: flex;
+    border-radius: 1.5rem;
+    background-color: var(--very-pale-blue);
+    align-items: center;
+    padding: 2rem;
+    flex-direction: row;
+    gap: 1.5rem;
+    width: 30rem;
+
+}
+
+.mini__card__plan {
+    gap: 2rem;
+    padding-right: 3.5rem;
+
+}
+
+.mini__card__plan__title {
+    font-family: var(--font-family);
+    font-weight: var(--bold);
+    color: var(--dark-blue);
+}
+
+.mini__card__plan__cost {
+    font-family: var(--font-family);
+    font-weight: var(--semi-bold);
+    color: var(--desaturated-blue);
+    opacity: 80%;
+}
+
+.mini__card__change {
+    color: var(--bright-blue);
+    text-decoration: underline;
+    font-family: var(--font-family);
+    font-weight: var(--bold);
+}
+
+.card__button {
+    display: flex;
+    border-radius: 1.5rem;
+    background-color: var(--bright-blue);
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    flex-direction: row;
+    width: 30rem;
+    border: 1px;
+    box-shadow: 0 1px 10px var(--bright-blue);
+
+}
+
+.card__button__text {
+    color: white;
+    opacity: 95%;
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+
+}
+
+.cancel {
+    font-size: 1.5rem;
+    font-family: var(--font-family);
+    color: var(--desaturated-blue);
+    font-weight: var(--bold);
+    opacity: 80%;
+}
+
+.cancel:hover {
+    cursor: pointer;
+    color: var(--dark-blue);
+    opacity: 100%;
+    transition: 0.3s;
+}
+
+.card__button:hover {
+    cursor: pointer;
+    opacity: 60%;
+    text-decoration: solid;
+    transition: 0.3s;
+}
+
+.mini__card__change:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    opacity: 70%;
+}
+
+.card:hover {
+    box-shadow: 1px 2px 10px 1px var(--bright-blue);
+    transition: 0.3s;
+}
