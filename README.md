@@ -18,13 +18,13 @@ This is a solution to the [Order Summary Card Challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![](./images/screenshot.png)
+![](./images/Screenshot.png)
 
 
 ### Links
 
-- Solution URL: [https://github.com/nvshanmukh/qr-code-component](https://github.com/nvshanmukh/qr-code-component)
-- Live Site URL: [https://nvshanmukh.github.io/qr-code-component/](https://nvshanmukh.github.io/qr-code-component/)
+- Solution URL: [https://github.com/nvshanmukh/order-summary-component](https://github.com/nvshanmukh/order-summary-component)
+- Live Site URL: [https://nvshanmukh.github.io/order-summary-component/](https://nvshanmukh.github.io/order-summary-component/)
 
 ## My process
 
