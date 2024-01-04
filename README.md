@@ -20,7 +20,6 @@ This is a solution to the [Order Summary Card Challenge on Frontend Mentor](http
 
 ![](./images/Screenshot.png)
 
-
 ### Links
 
 - Solution URL: [https://github.com/nvshanmukh/order-summary-component](https://github.com/nvshanmukh/order-summary-component)
